@@ -12,3 +12,12 @@ This script will make it easy to generate texture file paths for your characters
 
 
    - Note: You must have python installed for the script to work.
+
+
+## Variables
+Variables that may be useful to you
+
+- resFile — output file name
+- folder — the path to the folder with textures (if the script is in the same folder, you can leave it empty)
+- whiteListFormats — list of formats to display (if the file path contains an element of this array, it will be added to the results)
+- blackListWords — list of keywords to ignore (if the file path contains an element of this array, it will be skipped)
